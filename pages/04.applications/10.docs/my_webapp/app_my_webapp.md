@@ -60,3 +60,7 @@ You can now connect without a password, with `sftp -b`, `lftp` or other SFTP cli
 
 >NB: The port number to use for the SFTP connection is the one used for SSH, and configured in `/etc/ssh/sshd_config`.
 This trick allows you to automatically update your site. For example, the Makefile for the Pelican tool allows you to use `make ftp_upload`.
+
+Additionnaly you can use the "connect to server" dialog in Ubuntu > Files with this command : 
+sftp://my_webapp@YourServerIp:SshPort/
+
